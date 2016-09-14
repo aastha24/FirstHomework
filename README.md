@@ -1,6 +1,6 @@
 # helloo-world
 
-Hi whatsup?
+Hi what's up?
 
 I am Aastha and I am working very hard to learn github.
-And Yan nan is here to help me.
+And Yannan is here to help me.
