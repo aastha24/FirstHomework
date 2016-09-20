@@ -11,13 +11,13 @@ static void help()
 {
     cout << "\nThis program demonstrates circle finding with the Hough transform.\n"
             "Usage:\n"
-            "./houghcircles <image_name>, Default is ../data/board.jpg\n" << endl;
+            "./houghcircles <image_name>, Default is ../data/lena.jpg\n" << endl;
 }
 
 int main(int argc, char** argv)
 {
     cv::CommandLineParser parser(argc, argv,
-        "{help h ||}{@image|../data/board.jpg|}"
+        "{help h ||}{@image|../data/lena.jpg|}"
     );
     if (parser.has("help"))
     {
